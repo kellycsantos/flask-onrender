@@ -28,7 +28,7 @@ livros = [
     },
 ]
 
-@app.route('/')
+@app.route('/livros')
 def get_livros():
     return jsonify(livros)
 
